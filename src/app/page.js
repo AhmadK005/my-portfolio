@@ -93,7 +93,7 @@ export default function Home() {
       <div id="languages" className="min-h-screen bg-[#0B2B26] flex flex-col pt-20 items-center justify-start">
         <h1 className="text-white text-5xl md:text-5xl mb-12">Programming Languages</h1>
         <div className="grid grid-cols-3 md:grid-cols-6 gap-10">
-          {["java", "python", "javascript", "c", "cicon", "html1", "matlab", "linux", "nodejs", "spring", "sql", "verilog"]
+          {["java", "python", "javascript", "c", "Cicon", "html1", "matlab", "linux", "nodejs", "spring", "sql", "verilog"]
             .map((lang) => (
               <Image key={lang} src={`/${lang}.png`} alt={lang} width={250} height={250} className="hover:opacity-50 transition" />
           ))}
